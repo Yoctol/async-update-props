@@ -1,0 +1,75 @@
+{
+  "name": "async-update-props",
+  "version": "0.1.0",
+  "description": "async props update HoC for React Component",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "repository": "Yoctol/async-update-props",
+  "author": {
+    "name": "C.T. Lin",
+    "email": "chentsulin@gmail.com",
+    "url": "github.com/Yoctol/async-update-props"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "src/",
+    "lib/"
+  ],
+  "keywords": [
+    "react",
+    "props",
+    "async",
+    "async-props",
+    "update-props"
+  ],
+  "dependencies": {
+    "is-promise": "^2.1.0",
+    "recompose": "^0.20.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-2": "^6.13.0",
+    "babel-register": "^6.14.0",
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.5.1",
+    "dirty-chai": "^1.2.2",
+    "enzyme": "^2.4.1",
+    "eslint": "^3.5.0",
+    "eslint-config-yoctol": "^0.8.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "^1.15.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.2.2",
+    "mocha": "^3.0.2",
+    "nyc": "^8.1.0",
+    "react": "^15.3.1",
+    "react-addons-test-utils": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "sinon": "^1.17.5",
+    "sinon-chai": "^2.8.0"
+  },
+  "options": {
+    "mocha": "--compilers js:babel-register --require babel-polyfill --require scripts/mocha-setup.js ./**/__tests__/**/*.spec.js"
+  },
+  "scripts": {
+    "clean": "rimraf lib dist .nyc_output",
+    "build": "npm run clean && babel src -d lib --ignore __tests__",
+    "testonly": "NODE_ENV=test mocha $npm_package_options_mocha",
+    "test": "npm run lint && npm run testonly",
+    "test:cov": "nyc npm test",
+    "lint": "eslint .",
+    "preversion": "npm test",
+    "prepublish": "npm run clean && npm run build"
+  },
+  "devEngines": {
+    "node": "4.x || 5.x || 6.x",
+    "npm": "2.x || 3.x"
+  }
+}

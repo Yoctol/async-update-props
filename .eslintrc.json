@@ -1,0 +1,17 @@
+{
+  "parser": "babel-eslint",
+  "extends": "yoctol",
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": true
+  },
+  "rules": {
+    "arrow-parens": "off",
+    "babel/arrow-parens": ["error", "as-needed"],
+    "import/no-extraneous-dependencies": "off"
+  },
+  "plugins": [
+    "babel"
+  ]
+}
