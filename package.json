@@ -1,6 +1,6 @@
 {
   "name": "async-update-props",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "async props update HoC for React Component",
   "main": "lib/index.js",
   "license": "MIT",
