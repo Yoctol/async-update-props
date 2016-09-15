@@ -1,1 +1,3 @@
-export { asyncUpdateProps as default } from './asyncUpdateProps';
+import asyncUpdateProps from './asyncUpdateProps';
+
+export default asyncUpdateProps;
