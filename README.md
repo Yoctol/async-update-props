@@ -51,7 +51,7 @@ If updater returns a promise, setState will be called with resolved value automa
 import asyncUpdateProps from 'async-update-props';
 
 import Page from '../components/Page';
-import { fetchDataRequest } from '../apis';
+import * as apis from '../apis';
 
 
 const updater = () => {
