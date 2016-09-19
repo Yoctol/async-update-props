@@ -45,7 +45,7 @@ export default compose(
 )(Page);
 ```
 
-If updater returns a promise, setState will automatic be called with resolved value:
+If updater returns a promise, setState will be called with resolved value automatically:
 
 ```js
 import asyncUpdateProps from 'async-update-props';
