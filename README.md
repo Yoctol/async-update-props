@@ -45,6 +45,24 @@ export default compose(
 )(Page);
 ```
 
+If updater returns a promise, setState will automatic be called with resolved value:
+
+```js
+import asyncUpdateProps from 'async-update-props';
+
+import Page from '../components/Page';
+import { fetchDataRequest } from '../apis';
+
+
+const updater = () => {
+  return apis.fetchDataRequest();
+};
+
+const shouldUpdateWhenReceiveProps = () => false;
+
+
+export default asyncUpdateProps(updater, shouldUpdateWhenReceiveProps)(Page);
+```
 
 ## API
 
