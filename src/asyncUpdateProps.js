@@ -5,7 +5,7 @@ const defaultShouldUpdateWhenReceiveProps = () => true;
 
 const asyncUpdateProps = (
   updater,
-  shouldUpdateWhenReceiveProps = defaultShouldUpdateWhenReceiveProps
+  shouldUpdateWhenReceiveProps = defaultShouldUpdateWhenReceiveProps,
 ) => BaseComponent => {
   const enhance = lifecycle({
     updateProps(props) {
