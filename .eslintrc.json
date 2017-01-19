@@ -7,11 +7,7 @@
     "mocha": true
   },
   "rules": {
-    "arrow-parens": "off",
-    "babel/arrow-parens": ["error", "as-needed"],
+    "arrow-parens": ["error", "as-needed"],
     "import/no-extraneous-dependencies": "off"
-  },
-  "plugins": [
-    "babel"
-  ]
+  }
 }
