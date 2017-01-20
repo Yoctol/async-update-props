@@ -1,6 +1,5 @@
 {
-  "presets": ["es2015", "stage-2"],
-  "plugins": ["add-module-exports"],
+  "presets": ["yoctol"],
   "env": {
     "test": {
       "presets": ["react"]
