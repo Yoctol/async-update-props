@@ -1,3 +1,3 @@
 import asyncUpdateProps from './asyncUpdateProps';
 
-export default asyncUpdateProps;
+module.exports = asyncUpdateProps;
