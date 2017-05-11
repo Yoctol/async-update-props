@@ -26,7 +26,7 @@
   ],
   "dependencies": {
     "is-promise": "^2.1.0",
-    "recompose": "^0.22.0"
+    "recompose": "^0.23.2"
   },
   "devDependencies": {
     "babel-cli": "^6.22.0",
