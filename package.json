@@ -46,7 +46,7 @@
     "eslint-plugin-react": "^7.0.1",
     "jsdom": "^10.1.0",
     "mocha": "^3.2.0",
-    "nyc": "^10.1.2",
+    "nyc": "^10.3.2",
     "react": "^15.4.2",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.4.2",
