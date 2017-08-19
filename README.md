@@ -1,5 +1,7 @@
 # async-update-props
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Yoctol/async-update-props.svg)](https://greenkeeper.io/)
+
 [![NPM version][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
