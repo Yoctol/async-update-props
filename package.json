@@ -52,7 +52,7 @@
     "react-dom": "^15.6.1",
     "rimraf": "^2.6.1",
     "sinon": "^3.2.1",
-    "sinon-chai": "^2.13.0"
+    "sinon-chai": "^3.0.0"
   },
   "options": {
     "mocha": "--compilers js:babel-register --require babel-polyfill --require scripts/mocha-setup.js ./**/__tests__/**/*.spec.js"
