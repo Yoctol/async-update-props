@@ -47,7 +47,7 @@
     "jsdom": "^11.1.0",
     "mocha": "^3.5.0",
     "nyc": "^11.1.0",
-    "react": "^15.6.1",
+    "react": "^16.3.0",
     "react-addons-test-utils": "^15.6.0",
     "react-dom": "^15.6.1",
     "rimraf": "^2.6.1",
