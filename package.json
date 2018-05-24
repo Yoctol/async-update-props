@@ -51,7 +51,7 @@
     "react-addons-test-utils": "^15.6.0",
     "react-dom": "^15.6.1",
     "rimraf": "^2.6.1",
-    "sinon": "^3.2.1",
+    "sinon": "^5.0.10",
     "sinon-chai": "^2.13.0"
   },
   "options": {
