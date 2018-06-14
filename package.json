@@ -36,7 +36,7 @@
     "babel-preset-yoctol": "^0.6.1",
     "babel-register": "^6.26.0",
     "chai": "^4.1.1",
-    "chai-enzyme": "^0.8.0",
+    "chai-enzyme": "^1.0.0-beta.1",
     "dirty-chai": "^2.0.1",
     "enzyme": "^2.9.1",
     "eslint": "^4.5.0",
