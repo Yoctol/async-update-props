@@ -39,7 +39,7 @@
     "chai-enzyme": "^0.8.0",
     "dirty-chai": "^2.0.1",
     "enzyme": "^2.9.1",
-    "eslint": "^4.5.0",
+    "eslint": "^5.0.0",
     "eslint-config-yoctol": "^0.14.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
